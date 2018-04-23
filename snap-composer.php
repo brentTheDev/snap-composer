@@ -1,4 +1,7 @@
 <?php
+require 'vendor/autoload.php';
+
+use scrivo\highlight;
 
 function numLivesPerSenatorArlo(string $name): int {
 	if($name === "Arlo") {
